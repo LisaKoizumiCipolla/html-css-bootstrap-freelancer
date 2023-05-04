@@ -1,4 +1,4 @@
-nav{
+#navbar_colour{
     background-color: #2c3e50;
 }
 
@@ -103,8 +103,8 @@ ul{
 }
 
 .icons>li{
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
     border: 1px solid white;
 }
 
