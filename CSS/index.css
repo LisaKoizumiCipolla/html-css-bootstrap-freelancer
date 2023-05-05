@@ -3,8 +3,13 @@
     color: white;
 }
 
+.start_bootstrap{
+    font-size: 1.25rem;
+}
+
 .navbar_ul>li{
     padding-left: 40px;
+    font-size: 1.1rem;
 }
 
 .profile_section,.about{
@@ -124,9 +129,38 @@ span{
     color: #1abc9c;
 }
 
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
 .small-text{
     margin-bottom: 0px;
     font-size: .9rem;
     font-weight: 700;
     padding: 30px 0 50px;
+}
+
+@media screen and (min-width: 768px){
+
+    .start_bootstrap{
+        font-size: 1.75rem;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+
+    h2{
+        font-size: 1.9rem;
+    }
+
+    h3{
+        font-size: 3.6rem;
+    }
+
+    h4{
+        font-size: 1.7rem;
+    }
+
 }
