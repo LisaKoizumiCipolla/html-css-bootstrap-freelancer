@@ -58,22 +58,22 @@
                 </div>
             </div>
             <div class="row portfolio">
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3" src="./img/cabin.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3"  src="./img/cake.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3"  src="./img/circus.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3"  src="./img/game.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3"  src="./img/safe.png" alt="">
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 py-3">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
                     <img class="rounded-3"  src="./img/submarine.png" alt="">
                 </div>
             </div>
@@ -121,17 +121,26 @@
                                 <div class="star col-1"><i class="fa-solid fa-star fa-2xl"></i></div>
                                 <div class="star_line col-2"></div>
                             </div>
+                        </div>
                     </div>
                 </div>
                 <div class="container">
-                    <p>Name</p>
-                    <div class="line"></div>
-                    <p>Email Address</p>
-                    <div class="line"></div>
-                    <p>Phone Number</p>
-                    <div class="line"></div>
-                    <p>Message</p>
-                    <textarea class="form-control border border-0 border-bottom mb-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="form-floating mb-2">
+                        <input type="Name" class="form-control-plaintext border border-0 border-bottom" id="floatingInput">
+                        <label for="floatingInput" class="label">Name</label>
+                      </div>
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control-plaintext border border-0 border-bottom" id="floatingPassword">
+                        <label for="floatingPassword" class="label">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="tel" class="form-control-plaintext border border-0 border-bottom" id="phone">
+                        <label for="phone" class="label">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control-plaintext border border-0 border-bottom mb-2" id="floatingTextarea2" style="height: 170px"></textarea>
+                        <label for="floatingTextarea2" class="label">Message</label>
+                    </div>
                     <button class="rounded-2 my-1">Send</button>
                 </div>
             </div>
